@@ -50,4 +50,4 @@ hash = {
    :key  => :value_2,
     Key:    :value_3
  }
-puts hash.count { |k, _| k.to_s.downcase.include?('key') }
+puts hash.count { |k, _| k.to_s.downcase.include?('key') } 
